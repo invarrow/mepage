@@ -11,8 +11,9 @@ h2{
 body{
     background-color: rgb(250, 194, 157);
 }
-.intro,header{
 
+.intro,header{
+    margin: 0px 0px 0px 24px;
 }
 header{
     margin-top: 50px;

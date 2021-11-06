@@ -1,0 +1,35 @@
+#gitlogo, #instalogo,#itchlogo,#twitterlogo{
+    height:50px;
+    margin:0px 10px 0px;
+}
+h1{
+    color:#004badc4
+}
+h2{
+    color:rgba(0, 60, 255, 0.37);
+}
+body{
+    background-color: rgb(250, 194, 157);
+}
+.intro,header{
+
+}
+header{
+    margin-top: 50px;
+}
+span{
+    height: 1000px;
+    width: 1000px;
+    text-size-adjust: none auto 100%;
+}
+
+body{
+    height:200vh;
+    background-size: contain;   
+    background-repeat: no-repeat;
+    background-color: pink;
+    background-image: url("breeze.png");
+    text-align: right;
+    
+}
+

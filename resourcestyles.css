@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 10px;
+}
+
+body{
+    background-color: slateblue;
+    font-family: 'Press Start 2P', cursive;
+    
+}
+.heading{
+    color: yellowgreen;
+    font-size: 5vh;
+}
+ul{
+    background-color: yellowgreen;
+    padding: 5vh;
+}
+li{
+    
+}
+a{
+    color:tomato
+}

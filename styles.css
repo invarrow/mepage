@@ -46,6 +46,20 @@ body{
     line-height: 74px;
 
 }
+header{
+    background-color: rgb(65, 225, 126);
+    height: 10%;
+}
+.navlist{
+    text-align: center;
+    display: inline-block;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+.navlinks{
+    color: rgb(255, 71, 65);
+    font-family:  'Press Start 2P', cursive;
+}
 *{
     margin: 0px;
     padding:0px;

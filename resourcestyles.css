@@ -2,7 +2,13 @@
     padding: 0px;
     margin: 10px;
 }
-
+header{
+    background-color: rgb(65, 225, 126);
+    height: 10%;
+}
+.navlist{
+    display: inline-block;
+}
 body{
     background-color: slateblue;
     font-family: 'Press Start 2P', cursive;
@@ -16,9 +22,7 @@ ul{
     background-color: yellowgreen;
     padding: 5vh;
 }
-li{
-    
-}
+
 a{
     color:tomato
 }

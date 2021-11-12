@@ -71,6 +71,7 @@ body{
     padding-left: 3vw;
     list-style: square;
     text-decoration: none;
+    background-color: aquamarine;
 }
 .navlist{
     text-align: center;
@@ -83,6 +84,9 @@ body{
     font-family:  'Press Start 2P', cursive;
     font-size: 2rem;
 }
+span{
+    text-decoration: underline;
+}
 *{
     margin: 0px;
     padding:0px;
@@ -91,10 +95,13 @@ body{
 main{
     margin-top: 100px;
 }
-
+footer{
+    font-size:smaller;
+}
 ::selection{
-    background-color: aquamarine;
+    background-color: rgb(222, 88, 255);
     color: rgb(40, 40, 255);
 
 }
+
 

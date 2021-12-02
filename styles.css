@@ -5,33 +5,45 @@
 .navbar{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: #004badc4;
     box-shadow: 0px 5px 15px 2px rgb(112, 104, 57);
+    border-style: solid;
+    border-color:rgb(93, 104, 255) ;
+    border-width: 2px 0px 2px 0px;
+    
 }    
 
 h2{
-    color:rgba(43, 108, 170, 0.842);
+    color:#ff5d1df3;
 }
 body{
     background-color: rgb(250, 194, 157);
 }
-
+.intro{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
 .helloworld{
+    
     font-family: 'Press Start 2P', cursive;
     font-size: 49px;
-    color:#004badc4;
+    color:#ff5d1df3;
+    
 }
 
 .name{
     font-family: 'Press Start 2P', cursive;
     font-size: 25px;
-    color:#004badc4;
+    color:#ff5d1df3;
 }
 .intro{
     font-family: 'Press Start 2P', cursive;
-    font-size: 19px;
-    color:#004badc4;
+    
+    color:#ff5d1df3;
 }
 
 span{
@@ -51,25 +63,32 @@ body{
     font-family: 'Press Start 2P', cursive;
 
 }
-.heading{
-    background-color: rgb(255, 180, 81);
-    color: rgb(18, 118, 233);
-    font-size: 5vh;
-}
+
 .homecontainer{
     line-height: 110px;
 }
 .container{
-    background-color: coral;
+    background-color: rgb(255, 180, 81);
     padding: 12px;
     text-align: left;
     margin:0px ;
     padding: 10px;
     list-style: inside;
     line-height: 50px;
+    box-shadow:0px 10px 20px  rgb(172, 155, 102) ;
 }
 .heading{
+    background-color: rgb(255, 180, 81);
+    color: rgb(31, 39, 56);
+    font-size: 5vh;
+    display: flex;
+    box-shadow: 0px -10px 20px  rgb(172, 155, 102);
+    border-style: solid;
+    border-color:orangered ;
+    border-width: 2px 0px 2px 0px;
     margin-top: 100px;
+    flex-direction: column;
+    
 }
 
 
@@ -77,21 +96,27 @@ body{
     padding-left: 3vw;
     list-style: square;
     text-decoration: none;
-    background-color: aquamarine;
+    background-color: rgb(255, 229, 145);
+    border-radius: 15px;
+    border:solid rgb(214, 139, 111) 2px;
+    /* color */
 }
 .navlist{
     text-align: center;
     display: inline-block;
     margin-right: 1vw;
     margin-left: 1vw;
+    
 }
 .navlinks{
-    color: rgb(255, 71, 65);
+    color: rgb(31, 39, 56);
+    text-decoration: underline;
     font-family:  'Press Start 2P', cursive;
     font-size: 2rem;
 }
 span{
     text-decoration: underline;
+    color: rgb(255, 0, 0);
 }
 *{
     margin: 0px;
@@ -105,9 +130,11 @@ footer{
     font-size:smaller;
 }
 ::selection{
-    background-color: rgb(196, 108, 255);
+    background-color: rgb(255, 94, 0);
     color: rgb(31, 27, 87);
 
 }
 
-
+html {
+    scroll-behavior: smooth;
+  }
